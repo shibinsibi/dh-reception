@@ -98,10 +98,10 @@
     });
   }
 
-  // Countdown to Baraat Swagat, 18 Jan 2027, 8:00 am IST
+  // Countdown to Shagna di Shaam, 19 Jan 2027, 2:00 pm IST
   var cd = document.getElementById('countdown');
   if (cd) {
-    var target = new Date('2027-01-18T08:00:00+05:30').getTime();
+    var target = new Date('2027-01-19T14:00:00+05:30').getTime();
     var cells = {};
     cd.querySelectorAll('b').forEach(function (b) { cells[b.dataset.u] = b; });
     var run = function () {

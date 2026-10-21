@@ -1,42 +1,6 @@
 // One source for every event: used by the home cards, the event pages and "More events".
 window.DKH_EVENTS = [
   {
-    slug: 'baraat-swagat', name: 'Baraat Swagat', what: 'The Welcome',
-    day: 'Monday', date: '18th January', iso: '2027-01-18', start: '08:00', time: '8:00 am',
-    venue: 'Krishna Resort, Chikhli', photo: '3d/baraat-swagat.jpg', pos: '50% 35%',
-    extra: ['Followed by Breakfast']
-  },
-  {
-    slug: 'rango-ka-mela', name: 'Rango Ka Mela', what: 'Haldi Carnival',
-    day: 'Monday', date: '18th January', iso: '2027-01-18', start: '10:00', time: '10:00 am',
-    venue: 'Kalakunj Ground', photo: '3d/rango-ka-mela.jpg', pos: '50% 35%',
-    theme: 'Pastel Colors', palette: ['#F4C7D0', '#FBE6A6', '#C7E3CF', '#C9DDF2', '#DCCDEF'],
-    women: 'Indo Western', men: 'Kurta',
-    extra: ['Followed by Lunch']
-  },
-  {
-    slug: 'mamera-ri-mithas', name: 'Mamera Ri Mithaas', what: 'Mayra',
-    day: 'Monday', date: '18th January', iso: '2027-01-18', start: '14:00', time: '2:00 pm',
-    venue: 'Raj Mahal Hall', photo: '3d/mamera-ri-mithas.jpg', pos: '50% 35%',
-    theme: 'Rajasthani', palette: ['#C1272D', '#F2A900', '#D4145A', '#E8692B', '#2E7D5B'],
-    extra: ['Followed by High Tea']
-  },
-  {
-    slug: 'aaja-nach-le', name: 'Aaja Nach Le', what: 'Sangeet',
-    day: 'Monday', date: '18th January', iso: '2027-01-18', start: '19:00', time: '7:00 pm',
-    venue: 'Vrindavan Ground', photo: '3d/aaja-nach-le.jpg', pos: '50% 35%',
-    theme: 'Shimmer', palette: ['#1E2A57', '#5A3A8E', '#8A8C96', '#C9CCD3', '#6B7B3A'], shimmer: true,
-    extra: ['Followed by Dinner with Chovihaar Facility available']
-  },
-  {
-    slug: 'chakka-maar-chalang-maar', name: 'Chhakka Maar, Chalang Maar', what: 'Cricket Match & Pool Party',
-    day: 'Tuesday', date: '19th January', iso: '2027-01-19', start: '08:00', time: '8:00 am',
-    venue: 'Kalakunj Ground', photo: '3d/chakka-maar-chalang-maar.jpg', pos: '50% 35%',
-    theme: 'Floral colours', palette: ['#F29AB8', '#FFD166', '#9FD8A6', '#F7A072', '#4D6FA3'],
-    women: 'Sporty Yet Festive', men: 'Sporty Yet Festive',
-    extra: ['Starts with Breakfast, Followed by Lunch']
-  },
-  {
     slug: 'shagna-de-sham', name: 'Shagna di Shaam', what: 'The Wedding',
     day: 'Tuesday', date: '19th January', iso: '2027-01-19', start: '14:00', time: '2:00 pm',
     venue: 'Vrindavan Ground & Ampy Theatre', photo: '3d/shagna-de-sham.jpg', pos: '50% 35%',
@@ -54,11 +18,6 @@ window.DKH_EVENTS = [
     venue: 'Vrindavan Ground', photo: '3d/raat-baaki.jpg', pos: '50% 35%',
     theme: 'Cocktail night', women: 'Gown', men: 'Suit or blazer',
     extra: ['Followed by Dinner with Chovihaar Facility available']
-  },
-  {
-    slug: 'breakfast', name: 'Breakfast', what: 'A Meal of Togetherness before New Beginnings ❤️',
-    day: 'Wednesday', date: '20th January', iso: '2027-01-20', start: '07:30', time: '7:30 am',
-    venue: 'Krishna Resort, Chikhli', photo: '3d/breakfast.jpg', pos: '50% 35%'
   }
 ];
 
